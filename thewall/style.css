@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #1755c1;
+  }
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #1755c1;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: white;
+  background-color: #186bf9;
+  border: hidden #186bf9 1px;
+}
+
+.taakbalk {
+  font-size: 1.5em;
+  color: white;
+  background-color: #0d5de5;
+  border: hidden white 1px;
+}
+
+.upload {
+  color: white;
+  text-decoration: none;
+}
+
+.upload:hover {
+  color: black;
+}
+
+.images{
+  height: 300px;
+  width: 350px;
+}
+
+#inlogButton, #regButton {
+  background-color: #186bf9;
+  color: white;
+  padding: 15px 32px;
+  display: inline-block;
+  font-size: 16px;
+  border: hidden #186bf9 3px;
+}
+
+#inlogButton:hover, #regButton:hover {
+  background-color: white;
+  color: #186bf9;
+  padding: 15px 32px;
+  display: inline-block;
+  font-size: 16px;
+  border: hidden white 3px;
+}
+
+.phptekst, .uploadcss {
+  color: white;
+}
+
+.wallimg {
+  border: 3px white solid;
+}
